@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to TechBuzz Apps!')
 })
 
-app.get('/upcomingFeatures', (req, res) => {
+app.get('/notepadUpcomingFeatures', (req, res) => {
     res.send(res.status(200).json({
         features: [
             {
