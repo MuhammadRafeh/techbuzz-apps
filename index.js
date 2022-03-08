@@ -1,6 +1,6 @@
 const express = require('express')
 
-const port = 5000
+const PORT = process.env.PORT || 80;
 const app = express()
 
 app.get('/', (req, res) => {
@@ -40,6 +40,6 @@ app.get('/notepadUpcomingFeatures', (req, res) => {
     }))
 })
 
-app.listen(port, () => {
-    console.log(`Server started on port ${port}`)
+app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`)
 })
