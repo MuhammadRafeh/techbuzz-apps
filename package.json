@@ -20,5 +20,8 @@
   "homepage": "https://github.com/MuhammadRafeh/techbuzz-apps#readme",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
